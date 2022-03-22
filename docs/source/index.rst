@@ -14,5 +14,5 @@ Contents
 .. toctree::
 
    usage
-   usage_test
+   usagetest
    
