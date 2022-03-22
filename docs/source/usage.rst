@@ -3,36 +3,6 @@ Usage
 
 .. _installation:
 
-Installation
-------------
-
-To use Lumache, first install it using pip:
-
-.. code-block:: console
-
-   (.venv) $ pip install lumache
-
-Creating recipes
-----------------
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
-
 Setting IIOT PC.
 ----------------
 
@@ -113,5 +83,5 @@ GRID: For the grid shape.
 !!! IF you have the NLOS object in the room make sure the robot starts somewhere close to the center to avoid collision. (The robot has not yet been upgrade to include collision avoidance.) 
 
 
-
+In order to stop the experiment tap ctrl + C in the rosdock shell. 
    $ roslaunch mocap_qualisys qualisys.launch  server_address:=10.10.193.16
