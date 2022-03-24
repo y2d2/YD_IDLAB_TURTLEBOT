@@ -1,2 +1,4 @@
+.. _rosdock:
+
 rosdock
 =======

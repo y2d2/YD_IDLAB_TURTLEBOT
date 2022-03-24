@@ -79,11 +79,11 @@ In the rosdock container start the experiment with:
    $ roslaunch yd_turtlebot3_pos_control yd_idlab_control.launch shape:=HS_CW
    
 In order to change the experiment change the value of the shape parameter to: 
-HS_CW : High Speed, Clockwise
-HS_CCW : High Speed, Counterclockwise 
-LS_CW : Low Speed, Clockwise 
-LS_CCW : Low Speed, Counterclockwise
-GRID: For the grid shape. 
+#. HS_CW : High Speed, Clockwise
+#. 2HS_CCW : High Speed, Counterclockwise 
+#. LS_CW : Low Speed, Clockwise 
+#. LS_CCW : Low Speed, Counterclockwise
+#. GRID: For the grid shape. 
 
 !!! IF you have the NLOS object in the room make sure the robot starts somewhere close to the center to avoid collision. (The robot has not yet been upgrade to include collision avoidance.) 
 
