@@ -14,6 +14,8 @@ Contents
 .. toctree::
 
    usage
+   mocapcontrol
+   turtlebot
    uwbexp
    rosdock
    
