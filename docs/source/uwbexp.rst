@@ -18,7 +18,7 @@ To connect the UWB to ROS:
 Starting the recordings
 -----------------------
 
-Start another rosdock (:ref:'for more info on rosdock<rosdock>'.) container by specifing the name: 
+Start another rosdock ( :ref:`rosdock`.) container by specifing the name: 
 
 .. code-block:: console
 
