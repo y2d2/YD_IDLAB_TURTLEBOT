@@ -4,7 +4,7 @@ UWB Experiments
 Control of the robot
 --------------------
 For now only Mocap control has been implemented.
-Make sure all the steps of :ref:`MocapC`. are covered. 
+Make sure all the steps of :ref:`MocapC` are covered before to continue here. 
 
 Start the UWB ros node
 ----------------------
@@ -42,4 +42,10 @@ In order to capture all the signals (-a option) and give it prefix  through the 
    
 In order to use the data navigate to the shared folder on the host pc (NOT in the rosdock). 
 
-   
+.. note::
+	It may occure the data is owned by the root of the rosdock (user that recorded the data.) and not the iiot user of the host machine. 
+	In order to fix this in on the host machine change the ownership of the folder.
+   	
+   	.. code-block:: console
+
+   		$ sudo chown iiot:iiot -R ~/rosdockDrives/sharedDrive

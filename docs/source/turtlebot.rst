@@ -81,7 +81,11 @@ In order to increase clockwise rotation (decrease counterclockwise rotation) spe
 Press the 6-button to make to robot move straightforward at topspeed. 
 
 Press the 5-button to switch back to PC-controlled movement. 
-   
+
+.. image:: images/RC_tagged.png
+  :width: 400
+  :alt: Remote control operations with turtlebot. 
+  
 ROS topics
 ----------
 
