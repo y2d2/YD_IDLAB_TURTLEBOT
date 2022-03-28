@@ -29,6 +29,7 @@ Connect to the turtlebot through ssh (Be carefull IP adress might change since i
 Use the password: turtlebot
 
 It can take a bit of time. In case you are worrying you can keep an eye on the ping: 
+
 .. code-block:: console
 
    $ ping 10.10.135.10
