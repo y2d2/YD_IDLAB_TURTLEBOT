@@ -4,7 +4,7 @@ UWB Experiments
 Control of the robot
 --------------------
 For now only Mocap control has been implemented.
-Make sure all the steps of :ref: 'MocapC'. are covered. 
+Make sure all the steps of :ref:`MocapC`. are covered. 
 
 Start the UWB ros node
 ----------------------
@@ -29,11 +29,13 @@ Navigate to the shared folder, between the rosdock and the host pc, in the rosdo
 .. code-block:: console
 
    $ cd   /sharedDrive
-   
-It is a good idea to create a new folder with the experiments of the day. (eg. 2022_03_24_NLOS_EXPERIMENTS) and save the results in this folder. 
+.. warning::
+.. note::
+	It is a good practisch to create a new folder with the experiments of the day, that is marked by the date and a meaningfull title of the experiment: (eg. 2022_03_24_NLOS_EXPERIMENTS) and save the results in this folder. 
 
 
 In order to capture all the signals (-a option) and give it prefix  through the -o option for rosbag record command: 
+
 .. code-block:: console
 
    $ rosbag record -a -o LS_CW_TWR_NOCIR_NLOS

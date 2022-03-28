@@ -9,11 +9,11 @@ In case more detail is need please visit: https://emanual.robotis.com/docs/en/pl
 
 Battery warning
 ---------------
+.. warning::
+	When the battery level is to low the turtlebot will stop and start to beep. 
+	In this case it is important to close off the turtlebot and change the battery as soon as possible. 
 
-When the battery level is to low the turtlebot will stop and start to beep. 
-In this case it is important to close off the turtlebot and change the battery as soon as possible. 
-
-Never charge the battery while still connected to the robot in operation!!
+	Never charge the battery while still connected to the robot in operation!!
 
 Starting the Turtlebot
 ----------------------
@@ -66,5 +66,22 @@ Changing the battery
 
 Make sure the robot is fully switched of. Detacht the T-connector of the battery and remove the battery from the robot. Insert the new battery in the robot and connect it with the T-connector to the robot. The empty battety can be recharged using the charging station of the battery. 
 
+.. _turtlebotRC:
+
+Remote Control Operation
+------------------------
+
+The turlebot has been equiped with a remote control working on Bleutooth. 
+In order to start the remote control operations it suffices to power on the remote control and press any of the buttons (except number 5.) 
+
+In order to increase forward speed press the U-button, decrease speed press the D-button. (Warning: When the robot is moving backwards it has the tendency to become unstable and possibly topple.)
+In order to increase clockwise rotation (decrease counterclockwise rotation) speed press the L-button, to decrease it press the R-button. 
+
+Press the 6-button to make to robot move straightforward at topspeed. 
+
+Press the 5-button to switch back to PC-controlled movement. 
    
+ROS topics
+----------
+
 

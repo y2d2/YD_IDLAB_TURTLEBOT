@@ -31,7 +31,7 @@ To connect qualisys with ROS:
 Starting the turtlebot
 ----------------------
 
-Next make sure the turtlebot is switched on and the control is running. See :ref: 'Turtlebot'. for more info. 
+Next make sure the turtlebot is switched on and the control is running. See :ref:`Turtlebot`. for more info. 
  
 Starting an experiment
 ----------------------
@@ -42,13 +42,13 @@ Connect to the iiot PC through ssh again:
 
    $ ssh iiot@10.10.133.50
 
-Start a rosdock  (docker container with specific ROS version): 
+Start a rosdock (docker container with specific ROS version): 
 
 .. code-block:: console
 
    $ rosdock 
  
-(For more information and troubleshooting on rosdock see :ref: 'rosdock'.)
+(For more information and troubleshooting on rosdock see :ref:`rosdock`.)
 In the rosdock container start the experiment with: 
 
 .. code-block:: console
@@ -62,7 +62,10 @@ In order to change the experiment change the value of the shape parameter to:
 #. LS_CCW : Low Speed, Counterclockwise
 #. GRID: For the grid shape. 
 
-!!! IF you have the NLOS object in the room make sure the robot starts somewhere close to the center to avoid collision. (The robot has not yet been upgrade to include collision avoidance.) 
+.. warning::
+	IF you have the NLOS object in the room make sure the robot starts somewhere close to the center to avoid collision. (The robot has not yet been upgrade to include collision avoidance.) 
+	
+	You can use the remote control to manouvre the robot aswell, please see :ref:`turtlebotRC` for more information. 
 
 In order to stop the experiment tap ctrl + C in the rosdock shell. 
  

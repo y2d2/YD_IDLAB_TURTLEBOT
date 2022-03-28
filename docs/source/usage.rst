@@ -87,7 +87,6 @@ In order to change the experiment change the value of the shape parameter to:
 
 !!! IF you have the NLOS object in the room make sure the robot starts somewhere close to the center to avoid collision. (The robot has not yet been upgrade to include collision avoidance.) 
 
-
 In order to stop the experiment tap ctrl + C in the rosdock shell. 
 
 In order to close the rosdock session use the exit command: 
