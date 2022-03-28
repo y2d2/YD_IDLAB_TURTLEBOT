@@ -17,7 +17,7 @@ Battery warning
 
 Starting the Turtlebot
 ----------------------
-Before to switch on the turtlebot disconnect the UWB tag. (a udev rule has to be maid). 
+Before to switch on the turtlebot disconnect the UWB tag. (a udev rule has to be made). 
 Connect the battery to the robot and switch on the main powerswitch.
 
 Connect to the turtlebot through ssh (Be carefull IP adress might change since it is not a fixed one.) : 
@@ -48,7 +48,7 @@ to reboot use:
 
    $ sudo reboot
    
- It might take some time for the robot to reboot. Once the robot has rebooted connect with it through ssh. 
+It might take some time for the robot to reboot. Once the robot has rebooted connect with it through ssh. 
 
 Closing an the Turtlebot
 ------------------------
