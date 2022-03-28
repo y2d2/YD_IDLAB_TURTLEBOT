@@ -56,6 +56,7 @@ In the rosdock container start the experiment with:
    $ roslaunch yd_turtlebot3_pos_control yd_idlab_control.launch shape:=HS_CW
    
 In order to change the experiment change the value of the shape parameter to: 
+
 #. HS_CW : High Speed, Clockwise
 #. 2HS_CCW : High Speed, Counterclockwise 
 #. LS_CW : Low Speed, Clockwise 
