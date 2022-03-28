@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'IDlab-Turtlebot'
+copyright = '2022, IMEC'
+author = 'Yuri Durodie'
 
 release = '0.1'
 version = '0.1.0'
