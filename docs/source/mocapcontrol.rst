@@ -57,11 +57,11 @@ In the rosdock container start the experiment with:
    
 In order to change the experiment change the value of the shape parameter to: 
 
-#. HS_CW : High Speed, Clockwise
-#. 2HS_CCW : High Speed, Counterclockwise 
-#. LS_CW : Low Speed, Clockwise 
-#. LS_CCW : Low Speed, Counterclockwise
-#. GRID: For the grid shape. 
+* HS_CW : High Speed, Clockwise
+* 2HS_CCW : High Speed, Counterclockwise 
+* LS_CW : Low Speed, Clockwise 
+* LS_CCW : Low Speed, Counterclockwise
+* GRID: For the grid shape. 
 
 .. warning::
 	IF you have the NLOS object in the room make sure the robot starts somewhere close to the center to avoid collision. (The robot has not yet been upgrade to include collision avoidance.) 
@@ -69,5 +69,9 @@ In order to change the experiment change the value of the shape parameter to:
 	You can use the remote control to manouvre the robot aswell, please see :ref:`turtlebotRC` for more information. 
 
 In order to stop the experiment tap ctrl + C in the rosdock shell. 
+
+.. warning::
+	For now the trutlebot will repeat the patern infinetly (or atleast until battery runs down) until it is stoped by the user. Works are in the make to automate the stopping as well, but have not been implemented yet on the robot. 
+
  
 
