@@ -85,7 +85,9 @@ Press the 5-button to switch back to PC-controlled movement.
 .. image:: images/RC_tagged.png
   :width: 400
   :alt: Remote control operations with turtlebot. 
-  
+ 
+.. note::
+	It is sufficient to start up the turtlebot and directly control the trutlebot with the RC to move the robot arround without having to login to the turtlebot by ssh and starting the rosnode, since the RC acts directly on the microcontroller board (OpenRC). However in case you want to get all the sensor information and commands that have been send to the robot starting the rosnode will have to be performed. 
 ROS topics
 ----------
 

@@ -3,8 +3,12 @@ UWB Experiments
 
 Control of the robot
 --------------------
-For now only Mocap control has been implemented.
-Make sure all the steps of :ref:`MocapC` are covered before to continue here. 
+Two modes of operation have been implemented for now for the Turtelebot: 
+
+#. Through the mocap: Make sure all the steps of :ref:`MocapC` are covered before to continue here. 
+#. Through the remote control (RC): Make sure to follow te steps as detailed in :ref:`turtlebotRC`.
+
+Both modes of operation can run in parallel, it suffice to switch from one mode to the other using the RC. 
 
 Start the UWB ros node
 ----------------------
