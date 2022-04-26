@@ -72,20 +72,20 @@ Other parameter[default value] can be changed :
    
 Parameters concerning the control of the robot: 
 
-* maxSpeed[1]: Maximum speed allowed in the control of the robot. 
-* minSpeed[0.1]: Minum speed used in the control of the robot.
-* targetTolerance[0.2]: Distance to target that is acceptable. (Be carefull to reduce this one to much. Tendency for the robot to drive arround the target.)
-* angularControlP[2]: The P-gain for the angular velocity. 
-* maxAngularSpeed[1]: The max angular velocity. In MOCAP settings this can be set very high. When swithcing to UWB-IMU / UWB-Odom control best to keep a lower value so to avoid slipping and shocks. 
-* sampleLength[0.1]: Distance between local waypoints of the control. 
-* numberOfLaps[5]: Number of times the robot repeats the trajectory until it stops. 
+* maxSpeed [1]: Maximum speed allowed in the control of the robot. 
+* minSpeed [0.1]: Minum speed used in the control of the robot.
+* targetTolerance [0.2]: Distance to target that is acceptable. (Be carefull to reduce this one to much. Tendency for the robot to drive arround the target.)
+* angularControlP [2]: The P-gain for the angular velocity. 
+* maxAngularSpeed [1]: The max angular velocity. In MOCAP settings this can be set very high. When swithcing to UWB-IMU / UWB-Odom control best to keep a lower value so to avoid slipping and shocks. 
+* sampleLength [0.1]: Distance between local waypoints of the control. 
+* numberOfLaps [5]: Number of times the robot repeats the trajectory until it stops. 
 
 Parameters concering the trajectories: 
 
-* speed[0.1]: the speed used to calculate the trajectory. [GRID, CICLE, U]
-* counterclockwise[0]: Set to 1 if you want to move in the reverse way. [GRID, CICLE, U]
-* stopTime[30]: the seconds the robot is standingstil at each waypoint in the grid. E.g. For BLE 70 is used. [ONLY FOR GRID] 
-* gridMesh: The distance between waypoints of the grid [ONLY FOR GRID] 
+* speed [0.1]: the speed used to calculate the trajectory. [GRID, CICLE, U]
+* counterclockwise [0]: Set to 1 if you want to move in the reverse way. [GRID, CICLE, U]
+* stopTime [30]: the seconds the robot is standingstil at each waypoint in the grid. E.g. For BLE 70 is used. [ONLY FOR GRID] 
+* gridMesh [1]: The distance between waypoints of the grid [ONLY FOR GRID] 
 
 .. warning::
 	IF you have the NLOS object in the room make sure the robot starts somewhere close to the center to avoid collision. (The robot has not yet been upgrade to include collision avoidance.) 
